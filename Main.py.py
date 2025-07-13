@@ -1,6 +1,6 @@
 import mysql.connector as sql , random , datetime as dt
 import matplotlib.pyplot as plt
-conn=sql.connect(host='localhost',user='root',passwd='bps123',database='project')
+conn=sql.connect(host='localhost',user='User',passwd='Your Pass',database='Your database')
 A = 0
 if conn.is_connected() and A == 0:
     print("Successfully connected")
